@@ -294,6 +294,7 @@ namespace DotNetEx2_8
                     break;
                 }
             }
+            
             while (true)            
             {
                 Console.WriteLine("Podaj drugą liczbę");
@@ -305,8 +306,8 @@ namespace DotNetEx2_8
             }
 
             int a = number1,
-                  b = number2,
-                  temp = b;
+                b = number2,
+                temp = b;
             while (b != 0)
             {
                 temp = b;
