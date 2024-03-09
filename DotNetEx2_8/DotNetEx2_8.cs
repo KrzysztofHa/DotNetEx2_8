@@ -296,6 +296,7 @@ namespace DotNetEx2_8
                     break;
                 }
             }
+            
             while (true)            
             {
                 Console.WriteLine("Podaj drugą liczbę");
