@@ -284,7 +284,7 @@ namespace DotNetEx2_8
             Console.Clear();
 
             //10 znajdz najmniejszą wspulną wielokrotność dla dwóch liczb
-            Console.WriteLine("najmniejsza wspólna wielokrotność dwóch liczb)");
+            Console.WriteLine("najmniejsza wspólna wielokrotność dwóch liczb");
 
             int number1,number2;
             while (true)
