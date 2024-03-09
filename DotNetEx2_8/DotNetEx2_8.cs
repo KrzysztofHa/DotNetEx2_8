@@ -171,6 +171,7 @@ namespace DotNetEx2_8
             while (true)
             {                
                 Console.WriteLine("Podaj dodatnią nieparzystą liczbę z przedziału od 3 - " + diagonal);
+                Console.WriteLine("");
                 string readNumber = Console.ReadLine();
                 if (int.TryParse(readNumber, out int readDiagonal) && readDiagonal >= 3 && (readDiagonal % 2 != 0) && readDiagonal <= diagonal)
                 {
@@ -283,8 +284,9 @@ namespace DotNetEx2_8
             Console.Clear();
 
             //10 znajdz najmniejszą wspulną wielokrotność dla dwóch liczb
-           
-                int number1,number2;
+            Console.WriteLine("najmniejsza wspólna wielokrotność dwóch liczb)");
+
+            int number1,number2;
             while (true)
             {
                 Console.WriteLine("Podaj pierwszą liczbę");
@@ -305,8 +307,8 @@ namespace DotNetEx2_8
             }
 
             int a = number1,
-                  b = number2,
-                  temp = b;
+                b = number2,
+                temp = b;
             while (b != 0)
             {
                 temp = b;
